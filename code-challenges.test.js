@@ -13,6 +13,7 @@ describe("fibonacci", ()=> {
     expect(fibonacci(fibLength2)).toEqual([1, 1, 2, 3, 5, 8, 13, 21, 34, 55])
   })
 })
+
 // -->  FAIL  ./code-challenges.test.js
 //   fibonacci
 //   ✕ Returns the length of the Fibonacci Squence of given number (2 ms)

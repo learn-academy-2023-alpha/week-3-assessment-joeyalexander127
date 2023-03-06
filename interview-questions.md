@@ -54,7 +54,8 @@ Researched answer: A span tag is an inline element. typically used to apply styl
 
 1. Object-oriented programming: OBJ is a style or model of programming that that places all data, function and attibutes of a particular subject of data in its out object. Those attributes and functions of said object can then be called upon if its within its scope.
 
-2. Ruby: Ruby is a backend language most used for web development. Its specifcally focuses on server and data processing or in other words the backend langauge.
+2. Ruby: Ruby is a backend language most used for web development. Its specifcally focuses on server and data processing or in other words the backend langauge
+.
 
 3. Implicit return: In many programming languages, including Ruby, an implicit return is a shorthand syntax for returning a value from a method or function without using the return keyword explicitly.In Ruby, if a method has only one expression, you can omit the return keyword and the expression itself will be implicitly returned as the result of the method. Here's an example:
 
