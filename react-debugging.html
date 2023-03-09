@@ -63,24 +63,38 @@
           padding: "10px"
         }
         // No need to change anything ABOVE this line ^
+        
+        //------CHANGES--------
+        // Errors that were found within the return statement
+        // 1) No opening and closing frags (<> </>)- which are needed when you are using more than one tag being   
+        //   returned
+        // 2) The "drawCard" function was never invoked within our JSX tag for our button onClick.
+        // 3) for the shuffle button, the onClick method was not camelcase (the "c" was lower case)
 
         return (
+          <> 
           <h1>Draw a Card</h1>
-          <button onClick={}>
+
+          
+
+          <button onClick={drawCard}>
             Click to Draw a Card
           </button>
-          <button onclick={shuffle}>
+          
+          <button onClick={shuffle}>
             Return Cards and Shuffle Deck
           </button>
+
           <div style={handStyles}>
             {hand.map((card, index) => {
               return (
-                <div style={cardStyles} key={index}>
+                <div style={cardStyles} key={index} >
                   {card}
                 </div>
               )
             })}
           </div>
+          </>
         )
       }
 
